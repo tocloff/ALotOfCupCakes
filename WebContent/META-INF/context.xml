@@ -1,0 +1,7 @@
+<Context docBase="ALotOfCupcakes" debug="5"
+	reloadable="true" crossContext="true">
+	<Resource name="BDtienda" auth="Container" type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="30"
+		maxWait="10000" username="root" password="Tamara89!"
+		url="jdbc:mysql://localhost:3306/TIENDAONLINE" />
+</Context>
